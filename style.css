@@ -114,7 +114,7 @@ a {
     font-family: "Courier New", monospace;
 }
 
-img {
+.code {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -125,3 +125,41 @@ img {
     height: auto;
 }
 
+.apa {
+    text-align: left;
+    font-size: 12pt;
+    font-family: "Times New Roman", serif;
+    text-indent: 36px;
+    margin: 50px;
+    line-height: 2;
+}
+
+.essaytitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.citation {
+    text-align: left;
+    text-indent: -36;
+    padding-left: 36;
+    font-family: "Times New Roman", serif;
+    margin: 50px;
+    line-height: 2;
+}
+
+.coverpage {
+    text-align: center;
+}
+
+.pagebreak {
+    padding: 275px;    
+}
+
+.figure {
+    display: block;
+    padding: 5px;
+    margin: 50;
+    max-width: 100%;
+    height: auto;
+}
