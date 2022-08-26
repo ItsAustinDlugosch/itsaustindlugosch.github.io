@@ -163,3 +163,8 @@ a {
     max-width: 100%;
     height: auto;
 }
+
+.link {
+    margin: 200;
+    text-align: center;    
+}
