@@ -16,57 +16,36 @@ body {
     padding: 20px;
 }
 
-a {
-    
-}
-
 .header {
     background-color: #06447b;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #06447b;
+    text-shadow: -1px 1px 0px lightblue,
+		 1px 1px 0px lightblue,
+		 1px -1px 0px lightblue,
+		 -1px -1px 0px lightblue;
 }
 
-.title {
+img {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header .title {
     margin: 0;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 900;
-    font-size: 100pt;
-    letter-spacing: 3px;
-    color: #06447b;
-    text-shadow: -1px 1px 0px lightblue,
-		 1px 1px 0px lightblue;
-		 1px -1px 0px lightblue,
-		 -1px -1px 0px lightblue;
-}
-
-.subtitle {
-    margin: 10;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 900;
-    font-size: 60pt;
-    letter-spacing: 3px;
-    color: #06447b;
-    text-shadow: -1px 1px 0px lightblue,
-		 1px 1px 0px lightblue;
-		 1px -1px 0px lightblue,
-		 -1px -1px 0px lightblue;
-}
-
-.heading {
-    margin: 10;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 900;
     font-size: 40pt;
-    letter-spacing: 3px;
-    color: #06447b;
-    text-shadow: -1px 1px 0px lightblue,
-		 1px 1px 0px lightblue;
-		 1px -1px 0px lightblue,
-		 -1px -1px 0px lightblue;
 }
 
-.title span {
+.header .subtitle {
+    margin: 10px;
+    font-size: 60pt;
+}
+
+.header .title span {
     color: lightblue
 }
 
@@ -82,13 +61,13 @@ a {
     color: black;
     font-size: 20pt;
     text-align: center;
-    margin: 100;
+    margin: 100px;
     font-family: "Courier New", monospace;
 }
 
 .signature {
     background-color: orange;
-    margin: 160;
+    margin: 160px;
 }
 
 .name {
@@ -101,7 +80,7 @@ a {
 
 .sources {
     background-color: orange;
-    margin: 160;
+    margin: 160px;
     text-align: left;
     font-size: 36pt;
 }
@@ -110,7 +89,7 @@ a {
     color: black;
     font-size: 20pt;
     text-align: center;
-    margin: 20;
+    margin: 20px;
     font-family: "Courier New", monospace;
 }
 
@@ -125,46 +104,8 @@ a {
     height: auto;
 }
 
-.apa {
-    text-align: left;
-    font-size: 12pt;
-    font-family: "Times New Roman", serif;
-    text-indent: 36px;
-    margin: 50px;
-    line-height: 2;
-}
-
-.essaytitle {
-    text-align: center;
-    font-weight: bold;
-}
-
-.citation {
-    text-align: left;
-    text-indent: -36;
-    padding-left: 36;
-    font-family: "Times New Roman", serif;
-    margin: 50px;
-    line-height: 2;
-}
-
-.coverpage {
-    text-align: center;
-}
-
-.pagebreak {
-    padding: 275px;    
-}
-
-.figure {
-    display: block;
-    padding: 5px;
-    margin: 50;
-    max-width: 100%;
-    height: auto;
-}
-
 .link {
-    margin: 200;
+    font-size: 40pt;
+    margin: 120px;
     text-align: center;    
 }

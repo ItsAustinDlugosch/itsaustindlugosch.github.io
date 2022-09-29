@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../apa.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>AI Sentience Essay</title>
+    
+  </head>
+  <body>
+
+    <ul class="nav">
+      <li><a href="../../index.html">Home</a></li>
+      <li><a href="../../about.html">About</a></li>
+      <li><a href="../../portfolio.html">Digital Portfolio</a></li>
+      <li><a href="AI Sentience.html">AI Sentience</a></li>
+      <li><a href="Fingerprints.html">Fingerprints</a></li>
+      <li><a href="../Projects/Optimal Sort.html">Optimal Sorting</a></li>
+      <li><a href="../../CS-I/Projects/partyMode/partyMode.html">Projects</a></li>
+    </ul>
+
+    
+    <div class="header">
+      <h1 class="title"><span>AI Sentience</span> Essay</h1>
+    </div>
+
+    <div class="apa">
+      <div class="title">
+	<p>Technologically Assured Destruction</p>
+      </div>      
+      <div class="subtitle">
+	<p>Austin J. Dlugosch<p>
+	<p>Allen High School</p>
+	<p>Computer Science II</p>
+	<p>Mr. Ben-Yaakov</p>
+	<p>September 2, 2022</p>
+      </div>      
+      
+      <div class="pagebreak">
+      </div>
+      
+      <div>      
+	<h1>Technologically Assured Destruction</h1>
+	<p>With the continued growth of technology and advancements in robotics and artificial intelligence, is it permissible to worry about the tropes so commonly represented in science fiction? While some claim we have already reached the “the inflection point where technology can no longer be controlled by its creators”, in reality, we are only standing on a lesser hill -- an illusion of the actual mountain lying ahead (Metz, 2022). Experts say the problem with developing a sentient AI lies in the approach. Our current method is analogous to the difference between a simulation and a duplication of a process. A simulation can depict the process of photosynthesis, but it does not generate energy from light itself. Contrarily, solar panels can convert sunlight to energy by duplicating the organic process rather than attempting to emulate it. The same idea can apply to artificial cognition and sentience, but researchers still lack the fundamental and intricate knowledge required to build such a machine. These roadblocks have existed before, and humans have overcome barriers previously thought unconquerable. With the explosion of life-altering technology in the past fifty years, it is plausible cognizant machines will one day come to exist. We must consider the risks and benefits of technology that can potentially lead to our demise. Sentient AI will allow for profound discoveries and progress in a fraction of the time; however, it would likely lead to issues involving the disappearance of academic pursuit and our powerlessness when sentient machines eventually turn on us.</p>
+	<h2>The Fallacy in an Idealistic Future</h2>
+	<p>Sentient AI presents significant possibilities for the betterment of society, so it is desperately desired and researched. A super-intelligent AI would be able to improve itself faster than we could, and it would easily surpass humans in intelligence allowing for revolutionary “tools to cure diseases, colonize space, and avert ecological disaster” (Roose, 2022). Imagine a machine that could design another device to accomplish any task possible. What would be the purpose of thinking about something when a sentient machine could do it faster, more efficiently, and better? There would not be one. If robots were superior to humans in all intellectual feats, there would be no competition between humans. Without competition, society would resort to solely leisure activities while sentient machines would likely advance to a point where they would treat humans similarly to how humans treat ants. Is the advancement of knowledge worth relegating humanity to being secondary on the intellectual food chain? It is certainly not worth the risk to find out.</p>
+	<h2>Instability and Insurmountainable Force</h2>      
+	<p>Another edge sentient machines would have against humans would be their ability to design any weapon imaginable, and triggering these robots to attack us would not require much. Currently, AI works by minimizing and maximizing factors. It would be no different for sentient AI, except they would set the parameters themselves. The moment humans interfere with the ability to maximize their objective, the sentient machines would seek to remove humanity from the equation with “tremendously dangerous autonomous weapons unlike any seen before” (Azarian, 2016). The difference in technology between humans and sentient AI would likely be comparable to modern technology and the Stone Age. A conflict between our modern society and a neolithic one would be divisive, and over time, machines and humans would begin to have discourse. And when the adversary bolsters immeasurable brains and brawn, it is unlikely that humans would be able to stop the ball from rolling after they catapulted it down the hill.</p>
+	<h2>Risk versus Reward</h2>
+	<p>As technology advances, the dangers and risks become more volatile. Groups have dominated others using more sophisticated technology throughout all of human history. The Mongols desecrated towns and villages using their horseback fighting technique, Europeans decimated the populations of Native Americans with guns and ships, Nazis vanquished millions of Jews using chemical weapons, and the United States killed thousands with the drop of an atomic bomb. These atrocious acts were all waged against humans--by humans. Is it wise to look forward to the level of destruction levied against humans by sentient robots? The answer is an unequivocal no.</p>      
+      </div>
+
+      <div class="pagebreak">
+      </div>
+
+      <div class="references">
+	<h2>References</h2>
+
+	<div class="citation">
+	  <p>Azarian, B. (2016, June 1). The Myth of Sentient Machines. Psychology Today. Retrieved September 1, 2022, from <a href="https://www.psychologytoday.com/us/blog/mind-in-the-machine/201606/the-myth-sentient-machines">https://www.psychologytoday.com/us/blog/mind-in-the-machine/201606/the-myth-sentient-machines</a></p>
+
+	  <p>Metz, C. (2022, August 5). A.I. is not sentient. why do people say it is? The New York Times. Retrieved September 1, 2022, from <a href="https://www.nytimes.com/2022/08/05/technology/ai-sentient-google.html">https://www.nytimes.com/2022/08/05/technology/ai-sentient-google.html</a></p>
+
+	  <p>Roose, K. (2022, August 24). We need to talk about how good A.I. is getting. The New York Times. Retrieved September 1, 2022, from <a href="https://www.nytimes.com/2022/08/24/technology/ai-technology-progress.html">https://www.nytimes.com/2022/08/24/technology/ai-technology-progress.html</a></p>
+
+	  <p>TED. (2016, October 19). Can we build AI without losing control over it? | Sam Harris [Video]. Website. <a href="https://www.youtube.com/watch?v=8nt3edWLgIg">https://www.youtube.com/watch?v=8nt3edWLgIg</a></p>
+	</div>
+      </div>
+
+      <div class="pagebreak">
+      </div>
+
+    </div>
+    
+  </body>  
+</html>
