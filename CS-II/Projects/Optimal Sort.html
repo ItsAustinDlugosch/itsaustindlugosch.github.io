@@ -1,37 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
     <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../apa.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Optimal Sort Project</title>
     
-    </head>
-    <body>
+  </head>
+  <body>
 
-      <ul class="nav">
-	<li><a href="../../index.html">Home</a></li>
-	<li><a href="../../about.html">About</a></li>
-	<li><a href="../../portfolio.html">Digital Portfolio</a></li>
-	<li><a href="../Essays/AI%20Sentience.html">AI Sentience</a></li>
-	<li><a href="../Essays/Fingerprints.html">Fingerprints</a></li>
-	<li><a href="Optimal%20Sort.html">Optimal Sorting</a></li>
-	<li><a href="../../CS-I/Projects/partyMode/partyMode.html">Projects</a></li>
-      </ul>
+    <ul class="nav">
+      <li><a href="../../index.html">Home</a></li>
+      <li><a href="../../about.html">About</a></li>
+      <li><a href="../../portfolio.html">Digital Portfolio</a></li>
+      <li><a href="../Essays/AI%20Sentience.html">AI Sentience</a></li>
+      <li><a href="../Essays/Fingerprints.html">Fingerprints</a></li>
+      <li><a href="Optimal%20Sort.html">Optimal Sorting</a></li>
+      <li><a href="../../CS-I/Projects/partyMode/partyMode.html">Projects</a></li>
+    </ul>
 
-      
-      <div class="header">
-	<h1 class="title">Optimal <span>Sort</span></h1>
+    
+    <div class="header">
+      <h1 class="title">Optimal <span>Sort</span></h1>
+    </div>
+
+    <p style="text-align:center;">My Team: Drew Eldridge, Devin Wingfield, Nimo Ohayon-Rozanes</p>
+    <img class="code" src="../../assets/images/optimalSortFlowchart.png" alt="Optimal Sort Flowchart">
+    
+    <div class="link">
+      <div>
+	<a href="https://github.com/NimoOr/AlphabeticalSorting/">Alphabetical Sorting Project Page</a>
+      </div>
+      <div>
+	<a href="https://github.com/ItsAustinDlugosch/bubbleSort">Bubble Sort Project Page</a>
+      </div>
+      <div>
+	<a href="https://github.com/ItsAustinDlugosch/selectionSort">Selection Sort Project Page</a>
+      </div>
+      <div>
+	<a href="https://github.com/ItsAustinDlugosch/insertionSort">Insertion Sort Project Page</a>
+      </div>
+      <div>
+	<a href="https://github.com/ItsAustinDlugosch/bubbleSort">Optimal Sort Project Page</a>
+      </div>
+      <div>
+	<a href="https://docs.google.com/spreadsheets/d/1_c-VFHGGvW4-Y5z7wL1hRr0qJgLC8NIIaBIFCHbR7YM/edit?usp=sharing">Alphabetical Sorting Data</a>
+      </div>
+    </div>
+
+    <div>
+      <img class="code" src="../../assets/images/sortAnalysisGraph.png" alt="Sort Analysis Graph">
+    </div>
+    
+    <div class="apa">
+      <div class="title">
+	<p>Analysis of Sorting Algorithm Execution Time</p>
+      </div>
+      <div class="subtitle">
+	<p>Austin J. Dlugosch<p>
+	<p>Allen High School</p>
+	<p>Computer Science II</p>
+	<p>Mr. Ben-Yaakov</p>
+	<p>October 7, 2022</p>
+      </div>    
+
+      <div class="pagebreak">
       </div>
 
-      <p style="text-align:center;">My Team: Drew Eldridge, Devin Wingfield, Nimo Ohayon-Rozanes</p>
-      <img class="code" src="../../assets/images/optimalSortFlowchart.png" alt="Optimal Sort Flowchart">
-      
-      <div class="link">
-	<a href="https://github.com/NimoOr/AlphabeticalSorting/">Alphabetical Sorting Project Page</a>
-	<a href="https://docs.google.com/spreadsheets/d/1srBLFYVimXHhUTPjepYOGTaQZ0roKOTOvwqLLBbnq0w/edit?usp=sharing">Alphabetical Sorting Data</a> 
-      </div>	
-      
-    </body>  
+      <div>
+	<h1>Analysis of Sorting Algorithm Execution Time</h1>
+	<p>The sort analysis project is based on finding the best algorithms for different sizes and types of inputs, as well as learning the import aspects that affect how each algorithm handles a specific quantity or type of data set. Each of the bubble sort, insertion sort, selection sort, and my own optimal sort and represented on the graph. As for the colors, green represents bubble sort, blue represents insertion sort, red represents selection sort, and yellow represents my own optimal sort. Similarly, the squares represent an ordered input, the rhombuses represent a reverse-ordered input, and the triangle represents a random input. The axes of the graph use a logarithmic scale to elucidate differences between each sorting algorithm at both the smaller and larger amounts of words. Generally, each sorting algorithm remains similar for each type of input until the input exceeds about 100 words. Additionally, each sort typically has the fastest times for ordered, then random, and finally, the reverse-ordered; however, there are algorithms that struggle with inputs that are partially sorted, such as quick sort.</p>
+	<h1>Bubble Sort Analysis</h1>
+	<p>The first sorting algorithm represented is bubble sort. It is plainly visible on the graph as it generally takes much longer than any other sorting algorithm due to its simplicity. With a time complexity of O(n2), the execution time grows very quickly, and it is the only algorithm that is unable to completely sort both a reverse-ordered and a random sorted input of 100,000 words. Bubble sort completes the ordered input sort very fast because it does not perform any swaps; however, for the reverse-ordered input, the number of swaps is equal to the length of the input squared, and the number of swaps for the random input is somewhere between the ordered list and reverse-ordered list.</p>
+	<h1>Selection Sort Analysis</h1>
+	<p>The second sorting algorithm represented is selection sort. It is located on the graph below bubble sort and above insertion sort. Interestingly, all inputs have similar times. This is because the algorithm loops through the unsorted part of the array to search for the minimum element each time. Selection sort also has a time complexity of O(n2). The degree of sortedness of input has no effect on the time.</p>
+	<h1>Insertion Sort Analysis</h1>
+	<p>The third sorting algorithm represented is insertion sort. It is located below selection sort on the graph. This algorithm is most comparable to how a human would sort a deck of cards. This algorithm also has a time complexity of O(n2). It works by positioning an element from the unsorted portion into the sorted portion by finding its correct location in the list. This means that an ordered input has a similar time to a reverse-ordered input because the element is always inserted into either the end or beginning of the sorted list. A random input into insertion sort is still faster compared to selection sort.</p>
+	<h1>Optimal Sort Analysis</h1>
+	<p>The final sorting algorithm represented is my own optimal sort. It is primarily based on quick sort. It is important to know that as the input is more sorted, the execution time for quicksort increases. Therefore, possibly against the spirit of the challenge, I added a check to see if the input was completely sorted in order or reverse order before running quick sort. However, it is significant to note that the random input’s execution time is not far off the time for the ordered and reverse-ordered inputs.</p>
+	<h1>Conclusion</h1>	
+	<p>Overall, the largest takeaway from this experiment was that all sorting algorithms have their strengths and weaknesses, and the best algorithm uses a combination of multiple basic algorithms to speed up the time.</p>
+      </div>
+    </div>
+    
+  </body>  
 </html>
 
