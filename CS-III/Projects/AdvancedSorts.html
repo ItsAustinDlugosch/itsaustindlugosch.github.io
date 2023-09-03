@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/apa.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Advanced Sorting Algorithms</title>
+    
+  </head>
+  <body>
+
+    <script src="../../assets/js/navdepthtwo.js"></script>
+    
+    <div class="header">
+      <h1 class="title">Advanced <span>Sorts</span></h1>
+    </div>
+
+    <div class="apa">
+      <h1>Analysis of Advanced Sorting Algorithms</h1>
+      <p>Most common sorting algorithms iterate through a set iteratively, making use of clever techniques to arrange the set in order. All of these sorting algorithms have a time complexity of O(n2). Time complexity is the relationship between the time it takes for an algorithm to terminate based on the size of the input. Some more advanced algorithms utilize recursion in order to significantly cut down on the time complexity. Some common sorting algorithms that utilize recursion are Merge Sort, Quick Sort, and Heap Sort. Each of these algorithms utilizes the powerful tool of recursion in a different way to cut down on the time it takes to sort the set.</p>
+      <h1>Merge Sort Analysis</h1>
+      <p>Merge Sort utilizes recursion to continuously cut a set into 2 halves until the halves are each only one element. Then, the algorithm will compare the elements in the halves and merge them together. It does this by comparing the first element in each half and ordering them in a merged set. After that, it compares the second element in each half. This process continues for every element in each half. Eventually, the entire set will be merged together and the entire set will consequently be sorted. When comparing the time it takes to sort with the size of the input, the divisions of the set have a logarithmic relationship to time, while the comparing portion of the algorithm has a linear relationship to time. When multiplied together you get the time complexity of O(n log n). The space complexity of Merge Sort is O(n) because the relationship between the number of extra sets created to the size of the input is linear.</p>
+      <h1>Quick Sort Analysis</h1>
+      <p>Similar to Merge Sort, Quick Sort utilizes recursion to continuously divide an area into two halves; however, Quick Sort does this in a completely different way. First a pivot element is chosen. Then, each element in the array is compared to the pivot and either placed on the left side where elements are smaller than the pivot or the right side where elements are larger than the pivot. Quick Sort continues dividing the set into left and right sides while each side has more than one element. Quick Sort is different from Merge Sort because it performs all swaps while separating the set. Whenever all recursive calls of the function terminate, the set will be sorted. On average, Quick Sort has a time complexity of O(n log n) just like Merge Sort. Ideally, the size of both the left and right sides are equal for every separation, but in the case where the pivot is the smallest or largest element and all elements are always either on the left or right side, the time complexity could be O(n2) in the worst case. This same logic is applied to space complexity. If all or most splits result in equal sides, the space complexity would be O(log n); however, if all splits leave all elements to one side, the space complexity would be O(n).</p>
+      <h1>Heap Sort Analysis</h1>
+      <p>Heap Sort is unlike the other two algorithms because it organizes the elements in the set into a binary tree. By calling every element a node, and connecting the nodes together through a clever mathematical formula, you can traverse the set in a much more efficient way. The formula that defines any given node's children is two times the index plus one or two depending on whether the child is to the left or right of the parent node. Starting from the last element of the tree with leaves, or the last node of the set with children, (found by halving the size of the set and subtracting one) make sure that the parent node is larger than all of their children. This property is known as the heap property. Heap Sort then iterates through the set backwards from the middle and performs this operation for each node. This ensures that the first element in the set is the largest element. To sort the set, all that needs to be done is swapping the last element with the first then checking to see if the first element is larger than both of its children. If the root does not maintain the heap property, a swap is performed and the heap property is recursively checked at the new location of the swap. Heap Sort continues this process by again swapping the first element with the second to last element and so on. Removing the largest element and the subsequent process of rebuilding the heap property contributes to a time complexity of O(n log n). The space complexity of Heap Sort is O(1) because no extra memory is used in sorting the set.</p>
+      <h1>Conclusion</h1>	
+      <p>Overall, each sorting algorithm has the same time complexity of O(n log n) on average due to the use of recursion. Heap sort is most efficient with memory while Merge Sort is the least efficient with memory. Quick Sort has the potential to be the fastest algorithm, but it is also prone to variability as choosing a pivot that deviates from the mean considerably will increase the time and space required. Unlike Quick Sort, Merge Sort is not prone to this variability as it always separates the set in half making it the most consistent.</p>
+    </div>
+  </body>  
+</html>
