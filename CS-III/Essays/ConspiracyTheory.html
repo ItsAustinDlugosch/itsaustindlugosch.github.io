@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/apa.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Conspiracy Theories Essay</title>      
+  </head>
+  <body>
+
+    <script src="../../assets/js/navdepthtwo.js"></script>
+    
+    <div class="header">
+      <h1 class="title"><span>Conspiracy</span> Theories and Recommendation Algorithms</h1>
+    </div>
+
+    <div class="apa">
+      <div class="title">
+	<p>Algorithm Awareness & The Spread of Conspiracy Theories</p>
+      </div>
+      <div class="subtitle">
+	<p>Austin J. Dlugosch<p>
+	<p>Allen High School</p>
+	<p>Computer Science III</p>
+	<p>Mr. Ben-Yaakov</p>
+	<p>October 19, 2023</p>
+      </div>    
+
+      <div class="pagebreak">
+      </div>
+     
+      <div>
+	<h1>The Basics of Recommendation Algorithms</h1>
+	<p>Recommendation algorithms have become ubiquitous in our daily digital interactions. Whether you're searching for a product, watching a video, or browsing social media, these algorithms curate what you see based on your previous actions and broader behavioral patterns of other users. At their core, recommendation algorithms predict and present content that users are most likely to engage with. This keeps users on the platform longer, increasing the opportunity for ad exposure thus increasing profits for both content creators and the social media company itself. When profits are the sole metric for optimization, there can be harmful and unpredictable consequences. Because social media is so influential on society and individual beliefs, careful monitoring and consideration of recommendation algorithms are paramount.</p>
+	
+	<h2>How Recommendation Algorithms Work</h2>
+	<p>In general, recommendation algorithms track your digital footprint, which includes likes, shares, search queries, viewing durations, and other interactions. By analyzing this data, they infer your interests and preferences. There are two main approaches to the models: collaborative filtering and content-based. The collaborative filtering approach uses feedback or engagement from the user to recommend content to others while content-based approaches use characteristic features of the content.</p>
+	<h3>Collaborative filtering</h3>
+	<p>Collaborative filtering itself can be further categorized into how the data is processed. First is the User-User approach. This model is the most common method to analyze users, and it is frequently accompanied by the phrase “people like you also like…” as it recommends content based on whether similar users also engaged with it. Similar users are found by summing the amount of content where both users had engagement. This approach is efficient when the number of users is significantly smaller than the amount of content because adding users to the model is expensive as similarity must be computed with each user in the database for every addition.</p>
+
+	<p>Another category of collaborative filtering is Content-Content. This approach is very similar to the User-User approach; however, the perspective is reversed. It is commonly associated with the phrase “if you like this, you will also like …” as it recommends items based on whether items have similar users that have engaged with the content. This approach is efficient when the amount of content is significantly smaller than the number of users.</p>
+
+	<p>The final category of collaborative filtering is User-Content. This is a synthesization of the prior two approaches making it much more complex. The model utilizes matrix factorization and other techniques making training the algorithm difficult due to the complexity and resources required. Adding both users and content is resource intensive with this approach as well making it limited to larger services and models.</p>
+
+	<p>All collaborative filtering models suffer from an issue known as the “cold-start problem” where the model cannot recommend content to users until some feedback or engagement is either received from the user or for the content. This leads to the algorithm requiring a period of tuning for the user to receive content that is more likely to be engaged with.</p>
+
+	<h3>Content-Based</h3>
+	<p>This approach mitigates the cold-start problem as it relies entirely on characteristics of the content to recommend it to users. For example, characteristics of a movie would be genre, duration, budget, and other variables. This model is far less intensive to train than collaborative filtering because it does not require feedback; instead, machine learning can be used to quickly extract data from content to help categorize and recommend it to users.</p>
+
+	<h3>Complex Models</h3>
+	<p>Most large platforms use recommendation algorithms with complex models, which are a combination of both approaches. These algorithms require deep machine learning and cross domain datasets. The algorithms that train these models are very complex and require hyper-parameter optimization to tune results.</p>
+
+	<h2>The Feedback Loop</h2>
+	<p>The relationship between user behavior and algorithmic suggestions is cyclical, leading to a phenomenon called the feedback loop. This process can be harmful when the algorithm boosts content that is dangerous such as “terrorist content, foreign state-sponsored propaganda, extreme hatred, softcore zoophilia, inappropriate kids content, and innumerable conspiracy theories.” This type of content is usually only engaged with by a small group of people and reported by others. However, due to the feedback loop built into recommendation algorithms, extreme content is only recommended to those likely to engage with it allowing it to go unreported. This can lead to the development of filter bubbles where a specific and specialized type of content is repeatedly recommended to a group of individuals. These filter bubbles can even relate to illegal content.</p>
+
+	<p>A particularly disturbing case where a filter bubble emerged was on YouTube where pedophiles were recommended videos of children participating in seemingly normal activities such as gymnastics, swimming, or eating. Within the comment section, these anonymous users posted timestamps of revealing shots of the children as well as sexual euphemisms. Not only are these actions disgusting as the children were as young as five years old, but these videos were often monetized. Additionally, the comments that were posted also caused the algorithm to begin to recommend more of this type of content to these users. As more data was received on what types of users were engaging with this disgusting type of content, the model targeted these videos at people who would engage with child pornography rather than report it, causing the filter bubble to fly under the radar for years.</p>
+
+	<h2>Hyper-Engaged Users</h2>
+	<p>We all know people or have heard of others who spend a majority of their time on the internet. The Gen Z slang term for this is being “chronically online.” Generally, these people tend to adopt extreme views due to how recommendation algorithms affect people over time. This is likely due to how content creators interact with their platform's recommendation algorithm. When a user engages with content, the recommendation algorithm is then more likely to recommend similar types of content. Content creators, seeking to have their content promoted, tend to create similar content to what is being boosted by the algorithm. However, to make their content stand out it either has an added twist, is more extreme, or has an added shock. Over time, this causes content to drift towards extremism.</p>
+
+	<p>Interestingly, hyper-engaged users are also some of the most influential users on any platform for the recommendation algorithms. These users spend a lot of time on the platform and make considerable profits through their ad revenue. From the perspective of the platforms, ideally every user would be hyper-engaged. As a result, the recommendation algorithm boosts content that hyper-engaged users are consuming in an effort to make other users spend more time on the platform. Seeing what kinds of content hyper-engaged users consume can be a good metric to see how the algorithm will sway society in the future.</p>
+
+	<h2>Conspiracy Theories</h2>
+	<p>Similar to sensationalized content, outrageous conspiracy theories are a huge issue for social media as they tend to receive large engagement in two separate ways. People who buy into these theories often create content or seek out other similar content to validate their beliefs and even share the theories with others in an attempt to find community. Others who see the conspiracy theory as unbelievable will often post comments with evidence debunking the claims or send it to others to see their reaction. Both of these groups signal the recommendation algorithm to boost content that is similar and to recommend the content to other similar users.</p>
+
+	<p>When users continue to engage with a particular conspiracy theory, their feed becomes flooded with content relating to the conspiracy. This creates another instance of a filter bubble where only content supporting the theory is suggested and other rational videos that debunk the theory are kept far away from the user. This is already affecting the politics of our generation as people are increasingly radicalized and turning away from traditional evidence and reasoning.</p>
+
+	<h2>How Should We Approach these Algorithms</h2>
+	<p>Over time as algorithms have become more advanced, they have gotten better at recommending what people truly want to see. Most platforms use malicious tactics that most users unknowingly agree to. There are no coincidences on these platforms, you see ads that you are most likely to engage with, and you see videos that are most likely to keep you scrolling on the app. It is important that as a society we remind ourselves that people are inherently trusting and are susceptible to malicious actors who sway people to believe certain things. We need to find a way to approach these people with kindness and love rather than vitriol and hate to help them see other sides of the picture.</p>
+
+	<p>Both FaceBook and YouTube have vowed to filter out offensive content and remove misinformation. While this a huge first step, more still needs to be done and regulation needs to be put in place that prevents or mitigates the exploitation of social media on minors and others who are susceptible to conspiracy theories. Ultimately, being aware of the tactics that are already being used to affect the content we see versus what is being hidden is important to realizing how skewed anyone’s perspectives can become.</p>
+      </div>
+
+      <div class="pagebreak">
+      </div>
+      
+      <div class="references">
+	<h2>References</h2>
+
+	<div class="citation">
+
+	  <p>Chaslot, G. (2019, July 13). The Toxic Potential of YouTube's Feedback Loop. WIRED. Retrieved October 20, 2023, from https://www.wired.com/story/the-toxic-potential-of-youtubes-feedback-loop/</p>
+
+	  <p>Contal, E., & Guide, S. (n.d.). What are today’s top recommendation engine algorithms? | by Crossing Minds. ITNEXT. Retrieved October 19, 2023, from https://itnext.io/what-are-the-top-recommendation-engine-algorithms-used-nowadays-646f588ce639</p>
+	</div>
+      </div>
+
+      <div class="pagebreak">
+      </div>      
+    </div>
+
+
+  </body>  
+</html>
